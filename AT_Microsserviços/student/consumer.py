@@ -1,7 +1,7 @@
 import pika, json
 from student import Task, db
 
-params = pika.URLParameters('amqps://vjukodnq:1O1kym-eQ42ZXACIlIK4FRdb4Rigjy0c@prawn.rmq.cloudamqp.com/vjukodnq')
+params = pika.URLParameters('URL_HERE')
 
 connection = pika.BlockingConnection(params)
 
